@@ -1,0 +1,2 @@
+# square-equation
+for study
