@@ -30,6 +30,18 @@ namespace Program
 
             if (textBox.Text.Length == 1 && arifmetic.Contains(textBox.Text[0]) && e.KeyChar == ',')
                 e.Handled = true;
+
+            if (e.Handled)
+            {
+                if (e.KeyChar == '+' || e.KeyChar == '-')
+                    label4.Text = $"{e.KeyChar}  может быть только перед числом и только один!";
+                else if (e.KeyChar == ',')
+                    label4.Text = $"{e.KeyChar}  может быть только после числа и только один!";
+                else
+                    label4.Text = $"{e.KeyChar} не допустимый символ!";
+            }
+            else
+                label4.Text = "";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,9 +77,9 @@ namespace Program
                     MessageBox.Show($"ƒискриминант равен {d}.\n  орень x1 = {x1}\n  орень x2 = {x2}");
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                
+                MessageBox.Show(ex.Message);
             }
         }
     }
