@@ -65,3 +65,7 @@ dkms.conf
 Program.zip
 Program/.vs/Program/v17/.suo
 Setup.zip
+Program/Program/obj/Debug/net7.0-windows/Program.assets.cache
+Program/Program/obj/Debug/net7.0-windows/Program.GeneratedMSBuildEditorConfig.editorconfig
+Program/Program/obj/Debug/net7.0-windows/Program.assets.cache
+Program/Program/obj/Debug/net7.0-windows/Program.GeneratedMSBuildEditorConfig.editorconfig

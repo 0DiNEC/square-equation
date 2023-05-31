@@ -1,3 +1,3 @@
 # square-equation
 for study
-Конфликт (gh-pages)
+Разность 1
