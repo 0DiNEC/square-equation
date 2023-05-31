@@ -1,3 +1,1 @@
-# square-equation
-for study
-Разность 1
+РАЗНОСТЬ 1
